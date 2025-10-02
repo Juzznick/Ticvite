@@ -12,3 +12,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@font-face {
+    font-family: 'flubber';
+    src: url('/frontend/src/assets/fonts/flubber.TTF');
+}
+
+h1{
+  font-family: "flubber";
+}
