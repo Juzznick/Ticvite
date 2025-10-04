@@ -6,6 +6,14 @@
   --color-retrogreen: #697943;
 }
 
+body{
+    background-color: #D2D0BF;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -22,15 +30,14 @@
 }
 
 
-@font-face {
-    font-family: 'flubber';
-    src: url('/frontend/src/assets/fonts/flubber.TTF');
-}
-
 
 .font-ephesis{
   font-family: 'Ephesis', cursive;
 }
 .font-inter{
   font-family: 'Inter';
+}
+.font-flubber{
+  font-family: 'flubber';
+  src: url('/frontend/src/assets/fonts/flubber.TTF');
 }

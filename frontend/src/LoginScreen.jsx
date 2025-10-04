@@ -13,19 +13,14 @@ const LoginScreen = () => {
                         <h3 className='font-ephesis text-2xl'>please enter your credentials</h3>
                     </div>
 
-                    <div className='flex flex-col justify-center w-[70%]'>
-                        <h4 className='font-inter text-sm'>Email</h4>
-                        <input className='bg-gray-200/50 h-10 text-gray-500 text-sm pl-2 '></input>
+                    <form className='flex flex-col justify-center w-[70%]'>
+                        <label className='font-inter text-sm'>Email</label>
+                        <input className='bg-gray-200/50 h-10 text-gray-500 text-sm pl-2' placeholder='Enter your email'></input>
                         <br />
-                        <h4 className='font-inter text-sm'>Password</h4>
-                        <input type='password' className='bg-gray-200/50 h-10 text-gray-500 text-sm pl-2'></input>
-                    </div>
-
-                    <div>
-                        <button className='bg-retrogreen rounded-3xl pt-3 pb-3 pl-15 pr-15 cursor-pointer'>Login</button>
-                    </div>
-
-
+                        <label className='font-inter text-sm'>Password</label>
+                        <input type='password' className='bg-gray-200/50 h-10 text-gray-500 text-sm pl-2' placeholder="Enter your password"></input>
+                        <button className='bg-retrogreen rounded-sm mt-10 pt-2 pb-2 w-auto cursor-pointer'>Login</button>
+                    </form>
 
                     <h4 className='font-inter text-sm'>Don't have an account? <span className='font-bold cursor-pointer'>Sign Up</span></h4>
 
