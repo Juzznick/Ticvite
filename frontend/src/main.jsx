@@ -6,6 +6,7 @@ import ReactDOM from "react-dom/client";
 
 import MainScreen from './MainScreen'
 import LoginScreen from './LoginScreen';
+import SignupScreen from './SignupScreen';
 
 
 
@@ -16,6 +17,7 @@ ReactDOM.createRoot(root).render(
     <Routes>
       <Route path='/' element={<MainScreen/>}></Route>
       <Route path='login' element={<LoginScreen/>}></Route>
+      <Route path='signup' element={<SignupScreen/>} ></Route>
     </Routes>
   </BrowserRouter>
 );

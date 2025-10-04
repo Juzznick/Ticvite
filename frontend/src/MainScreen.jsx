@@ -25,7 +25,7 @@ function MainScreen() {
                     <div className='bg-[#E75C43]  w-[25vw] rounded-4xl'></div>
                 </div>
             </div>
-            <div className='bg-[#E79B43] h-[30vh] w-[100%] rounded-4xl '>-</div>
+            <div className='bg-[#E79B43] h-[35vh] w-[100%] rounded-4xl '>-</div>
         </div>
 
     );
