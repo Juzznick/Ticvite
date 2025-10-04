@@ -1,8 +1,8 @@
 import './index.css'
 const SignupScreen = () => {
     return (
-        <div className="flex justify-center items-center w-screen">
-            <div className="bg-[#B6A87E] h-[85vh] w-[70vw] rounded-2xl flex items-center justify-around">
+        <div className="flex justify-center items-center w-screen relative">
+            <div className="bg-litebrown h-[85vh] w-[70vw] rounded-2xl flex items-center justify-around">
                 
                 <div className="flex justify-evenly items-center flex-col border-white border-1 h-[75vh] w-[25vw] rounded-3xl">
 
@@ -23,7 +23,7 @@ const SignupScreen = () => {
                         <button className='bg-retrobrown rounded-sm mt-10 pt-2 pb-2 w-auto cursor-pointer'>Signup</button>
                     </form>
 
-                    <h4 className='font-inter text-sm'>Already have an account? <span className='font-bold cursor-pointer'>Login</span></h4>
+                    <h4 className='font-inter text-sm'>Already have an account? <a href="/login"><span className='font-bold cursor-pointer'>Login</span></a></h4>
 
                 </div>
 
@@ -31,6 +31,7 @@ const SignupScreen = () => {
                     <img src="/images/signup-sideimg.png" className="rounded-3xl h-[75vh] " />
                 </div>
             </div>
+            <h1 className='rotate-90 font-ericaone text-[12rem] text-litebrown absolute -right-52'>SIGNUP</h1>
         </div>
 
 

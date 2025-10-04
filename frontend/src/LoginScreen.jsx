@@ -2,7 +2,8 @@ import './index.css'
 const LoginScreen = () => {
     return (
         <div className="flex justify-center items-center w-screen">
-            <div className="bg-[#ACB695] h-[85vh] w-[70vw] rounded-2xl flex items-center justify-around">
+            <h1 className='rotate-270 font-ericaone text-[12rem] text-litegreen absolute -left-30'>LOGIN</h1>
+            <div className="bg-litegreen h-[85vh] w-[70vw] rounded-2xl flex items-center justify-around relative">
                 <div className="flex justify-center items-center">
                     <img src="/images/login-sideimg.png" className="rounded-3xl h-[75vh] " />
                 </div>
@@ -22,7 +23,7 @@ const LoginScreen = () => {
                         <button className='bg-retrogreen rounded-sm mt-10 pt-2 pb-2 w-auto cursor-pointer'>Login</button>
                     </form>
 
-                    <h4 className='font-inter text-sm'>Don't have an account? <span className='font-bold cursor-pointer'>Sign Up</span></h4>
+                    <h4 className='font-inter text-sm'>Don't have an account? <a href="/signup"><span className='font-bold cursor-pointer'>Sign Up</span></a></h4>
 
                 </div>
             </div>
