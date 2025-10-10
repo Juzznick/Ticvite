@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import './index.css'
-function MainScreen() {
+function DashScreen() {
 
 
     const [time, setTime] = useState(new Date().toTimeString().slice(0, 5));
     useEffect(() => {
         const timer = setInterval(() => {
-            setTime(new Date().toTimeString());
+            setTime(new Date().toTimeString().slice(0,5));
         }, 1000);
 
         return () => clearInterval(timer);
@@ -33,4 +33,4 @@ function MainScreen() {
 
 }
 
-export default MainScreen;
+export default DashScreen;
