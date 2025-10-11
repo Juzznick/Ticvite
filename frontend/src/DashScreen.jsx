@@ -21,8 +21,11 @@ function DashScreen() {
                 <div className='bg-[#ACB695] h-[25vw] w-[28vw] rounded-4xl'></div>
                 <div className='grid grid-cols-1 grid-rows-2 gap-10'>
                     <div id="time" className='bg-[#D4AD81] w-[28vw] rounded-4xl flex items-center justify-center'>
-                        <h1 className='text-9xl text-[#404040] font-flubber pt-7'>{time}</h1></div>
-                    <div className='bg-[#E75C43]  w-[28vw] rounded-4xl'></div>
+                        <h1 className='text-9xl text-[#404040] font-flubber pt-7'>{time}</h1>
+                    </div>
+                    <div id="time" className='bg-[#E75C43] w-[28vw] rounded-4xl flex items-center justify-center'>
+                        <h1 className='text-7xl text-[#404040] font-flubber pt-7'>00:00:00</h1>
+                    </div>
                 </div>
             </div>
             <div className='bg-[#E79B43] h-[35vh] w-[100%] rounded-4xl '>-</div>
