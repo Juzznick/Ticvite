@@ -50,3 +50,16 @@ body{
 .font-ericaone{
   font-family: "Erica One";
 }
+
+@keyframes DropDown {
+  0%{
+    transform: translateY(-5rem);
+  }
+  100%{
+    transform: translateY(0rem);
+  }
+}
+
+.dropDown{
+  animation: DropDown 2s;
+}

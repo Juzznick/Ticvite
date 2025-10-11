@@ -1,6 +1,6 @@
 const Navbar = () => {
     return(
-        <div className="h-screen w-screen flex justify-center items-center">
+        <div className="flex justify-center items-center">
                 <nav className="fixed top-0 flex justify-center mt-5">
                     <ul className="flex w-[75vw] justify-around">
                         <li className="text-white cursor-pointer  bg-[#E79B43] pl-6 pr-6 flex items-center rounded-2xl">Home</li>
@@ -13,7 +13,6 @@ const Navbar = () => {
 
                     </ul>
                 </nav>
-                <h1 className="font-flubber text-coalblack text-6xl">Focus. Finish. Repeat.</h1>
             </div>
     );
 }
