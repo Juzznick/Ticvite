@@ -6,9 +6,10 @@ import Footer from "./components/Footer";
 const LandingScreen = () => {
     return (
         <div >
+            <Navbar/>
+            <Home/>
+            <Features />
             <Footer/>
-            {/* <Home/>
-            <Features /> */}
         </div>
 
     );
