@@ -1,7 +1,7 @@
 const Navbar = () => {
     return(
-        <div className="flex justify-center items-center ">
-                <nav className="fixed top-0 flex justify-center mt-5 ">
+        <div className="flex justify-center items-center bg-amber-50 top-0 sticky p-2 ">
+                <nav className="flex justify-center ">
                     <ul className="flex w-[75vw] justify-around">
                         <li className="text-white cursor-pointer  bg-[#E79B43] pl-6 pr-6 flex items-center rounded-2xl">Home</li>
                         <a id="features"><li className="text-2xl text-coalblack cursor-pointer">Features</li></a>
